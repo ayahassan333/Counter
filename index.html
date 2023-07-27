@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            margin:20px;
+            margin-left: 40%;
+            margin-right: 40%;
+            border: 5px solid goldenrod;
+            position: absolute;
+            top: 50%;
+            transform: translate(0, -50%);
+            padding: 20px;
+            text-align: center;
+        }
+        h1{
+            font-weight: bold;
+        }
+        #demo{
+            color:rgb(222, 40, 131);
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <h1>counter</h1>
+        <h2 id="demo"></h2>
+        <button onclick="decrease()">decrease</button>
+        <button onclick="reset()">reset</button>
+        <button onclick="increase()">increase</button>
+    </div>
+    
+
+    <script src="script.js"></script>
+
+</body>
+</html>
